@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "./",
   "engines": {
-    "node": "18.x"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "vite",
