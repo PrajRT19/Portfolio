@@ -5,8 +5,8 @@ import { personal } from '../data/resume';
 
 const contactLinks = [
   { icon: <FiMail size={20} />, label: 'Email', value: personal.email, href: `mailto:${personal.email}`, accent: '#00d4ff' },
-  { icon: <FiGithub size={20} />, label: 'GitHub', value: 'prajwalteli', href: personal.github, accent: '#7c3aed' },
-  { icon: <FiLinkedin size={20} />, label: 'LinkedIn', value: 'prajwalteli', href: personal.linkedin, accent: '#0a66c2' },
+  { icon: <FiGithub size={20} />, label: 'GitHub', value: 'PrajRT19', href: personal.github, accent: '#7c3aed' },
+  { icon: <FiLinkedin size={20} />, label: 'LinkedIn', value: 'prajwal-ravi-1751ab319', href: personal.linkedin, accent: '#0a66c2' },
   { icon: <FiPhone size={20} />, label: 'Phone', value: personal.phone, href: `tel:${personal.phone}`, accent: '#10b981' },
   { icon: <FiMapPin size={20} />, label: 'Location', value: personal.location, href: null, accent: '#f59e0b' },
 ];
