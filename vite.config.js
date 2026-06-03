@@ -9,7 +9,8 @@ export default defineConfig({
     sourcemap: false,
     minify: 'terser',
   },
+  // dev server options
   server: {
-    historyApiFallback: true,
+    open: false,
   },
 })
